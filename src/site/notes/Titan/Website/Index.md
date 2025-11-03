@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/titan/website/index/","title":"Home","pinned":"true","tags":["unraid","guide","titan","gardenEntry"],"updated":"2025-11-02T18:21:01.099-08:00"}
+{"dg-publish":true,"dg-path":"Index.md","permalink":"/index/","title":"Home","pinned":"true","tags":["unraid","guide","titan","gardenEntry"],"updated":"2025-11-02T18:21:01.099-08:00"}
 ---
 
 
