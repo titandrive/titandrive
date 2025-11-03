@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:26:17.779-08:00"}
+{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:31:24.785-08:00"}
 ---
 
 ## Intro
@@ -84,8 +84,7 @@ The final test was to try using a bluetooth controller with it and see how it co
 > 
 > If I downloaded the book to both devices, manually, via their calibre feature, I could not get syncing to work reliably at all.
 > 
-> The way to get it to sync reliably, and without issue, is to *not* use their Calibre feature or library syncing. I turned page progress sync on. I then manually downloaded the book to both devices using the Calibre Web Companion app, as mentioned above. Now, anytime I open a book it will load the progress from dropbox and if there was a change, ask if I want to skip ahead to the new location. 
->
+> The way to get it to sync reliably, and without issue, is to *not* use their Calibre feature or library syncing. I turned page progress sync on. I then manually downloaded the book to both devices using the Calibre Web Companion app, as mentioned above. Now, anytime I open a book it will load the progress from dropbox and if there was a change, ask if I want to skip ahead to the new location.
 { #dropbox-sync}
 
 ### Missing pieces: Page turner
