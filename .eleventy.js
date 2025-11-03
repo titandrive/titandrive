@@ -567,7 +567,6 @@ module.exports = function (eleventyConfig) {
       output: "dist",
       data: `_data`,
     },
-    pathPrefix: "https://titandrive.github.io/",
     templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: false,
