@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":" /Boox and calibre.md","permalink":"//boox-and-calibre/","title":"Calibre & Boox: Journey to the perfect ereader","updated":"2025-11-02T17:34:11.123-08:00"}
+{"dg-publish":true,"dg-path":" /Boox and calibre.md","permalink":"//boox-and-calibre/","title":"Calibre & Boox: Journey to the perfect ereader","updated":"2025-11-02T17:41:12.560-08:00"}
 ---
 
 I have been an e-book reader since for nearly as long as I have been a reader. I wish I could remember what model it was, but my first ereader was some ancient Sony device. In fact, I  distinctly [Digital Fortress](https://en.wikipedia.org/wiki/Digital_Fortress) being one of the first books I read on it. That started a lifelong fondness not only for reading but also gadgets. 
@@ -30,4 +30,6 @@ I started ingesting and converting my ebook library into CWA and fell in love. I
 
 ![Boox_and_calibre-xk22xx-008.webp|700](/img/user/Apps/Attachments/Boox_and_calibre-xk22xx-008.webp)
 
-Not only is the CWA interface a joy to use, it also works perfectly with the wonderful [Calibre Web Companion](https://github.com/doen1el/calibre-web-companion) android app. 
+Not only is the CWA interface a joy to use, it also works perfectly with the wonderful [Calibre Web Companion](https://github.com/doen1el/calibre-web-companion) android app.
+
+s

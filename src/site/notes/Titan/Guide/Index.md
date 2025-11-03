@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":" /Index.md","permalink":"//index/","title":"Home","tags":["unraid","guide","titan","gardenEntry"],"updated":"2025-11-02T17:34:57.814-08:00"}
+{"dg-publish":true,"dg-path":" /Index.md","permalink":"//index/","title":"Home","tags":["unraid","guide","titan","gardenEntry"],"updated":"2025-11-02T17:40:52.231-08:00"}
 ---
 
 
@@ -9,4 +9,4 @@
 
 Guide to Titan Deployment
 
-[[Titan/Guide/Boox and calibre\| Calibre]]
+- [[Titan/Guide/Boox and calibre\| Calibre]]
