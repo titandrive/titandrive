@@ -217,3 +217,19 @@ p > code {
 .callout.is-collapsed .callout-fold .svg-icon {
     transform: rotate(-90deg);
 }
+
+
+/* Zoom effect for embedded images */
+img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+img:active {
+  transform: scale(2);
+  cursor: zoom-out;
+  z-index: 1000;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
