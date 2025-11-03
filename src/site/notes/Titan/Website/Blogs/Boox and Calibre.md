@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:31:24.785-08:00"}
+{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:38:56.997-08:00"}
 ---
 
 ## Intro
@@ -75,10 +75,9 @@ The final test was to try using a bluetooth controller with it and see how it co
 
 ![Boox_and_Calibre-oeoung-001.webp|200](/img/user/Apps/Attachments/Boox_and_Calibre-oeoung-001.webp)![Boox_and_Calibre-1m2qin-002.webp|200](/img/user/Apps/Attachments/Boox_and_Calibre-1m2qin-002.webp)![Boox_and_Calibre-rc4kek-003.webp|200](/img/user/Apps/Attachments/Boox_and_Calibre-rc4kek-003.webp)
 
-
 > [!bug]- Troubleshooting dropbox syncing
 >
-> While trying to set up syncing, initially, I ran into a lot of bugs and issues. I wanted to share what I found to solve someone else the future headache. 
+> While trying to set up syncing, initially, I ran into a lot of bugs and issues. I wanted to share what I found to save someone else the future headache. 
 > 
 > Moonreader offers the option to connect directly with your Calibre Web library and download books into the reader. It also offers the option to sync books (no just reading progress) via dropbox. Don't use either of these features. I'm not sure exactly what the issue is, but something wierd happens when you let Moonreader sync the books between devices or download books from Caliber. For example, I found that if I downloaded a book to one device (via their Calibre feature or manually) and  synced the book to the other device, the book *would* show up on the second device. But it would throw a wierd error and the book would not open.  
 > 
