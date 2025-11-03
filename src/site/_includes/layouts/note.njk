@@ -96,17 +96,30 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
 /* MEDIUM ZOOM */
 
-/* Simple zoom on click */
-img {
-  cursor: zoom-in;
-  transition: transform 0.25s ease;
-}
+<!-- Simple image zoom with uniform scale -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const zoom = mediumZoom('.cm-s-obsidian img, .markdown-preview-view img, main img', {
+      background: 'rgba(0, 0, 0, 0.9)',
+      margin: 0
+    });
 
-img:active {
-  transform: scale(1.25);
-  cursor: zoom-out;
-  z-index: 9999;
-}
+    zoom.on('open', () => {
+      const zoomedImg = document.querySelector('.medium-zoom-image--opened');
+      if (zoomedImg) {
+        zoomedImg.style.transition = 'transform 0.3s ease';
+        zoomedImg.style.transformOrigin = 'center center';
+        zoomedImg.style.transform = 'scale(1.25)'; // 25% zoom for all images
+      }
+    });
+
+    zoom.on('close', () => {
+      const zoomedImg = document.querySelector('.medium-zoom-image--opened');
+      if (zoomedImg) zoomedImg.style.transform = '';
+    });
+  });
+</script>
 
 
 
