@@ -93,27 +93,50 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
 
-<!-- Simple image zoom with uniform scale -->
+
+/* MEDIUM ZOOM */
+
 <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    const SCALE_BOOST = 1.3; // 1.25 = 25% more, 1.5 = 50% more
+
     const zoom = mediumZoom('.cm-s-obsidian img, .markdown-preview-view img, main img', {
       background: 'rgba(0, 0, 0, 0.9)',
       margin: 0
     });
 
-    zoom.on('open', () => {
-      const zoomedImg = document.querySelector('.medium-zoom-image--opened');
-      if (zoomedImg) {
-        zoomedImg.style.transition = 'transform 0.3s ease';
-        zoomedImg.style.transformOrigin = 'center center';
-        zoomedImg.style.transform = 'scale(1.25)'; // 25% zoom for all images
+    function boostScale() {
+      const img = document.querySelector('.medium-zoom-image--opened');
+      if (!img) return;
+
+      // Example transform medium-zoom sets: "translate3d(123px, 45px, 0px) scale(0.95)"
+      const t = img.style.transform || '';
+      const scaleMatch = t.match(/scale\(([^)]+)\)/);
+
+      if (scaleMatch) {
+        const current = parseFloat(scaleMatch[1]) || 1;
+        const boosted = (current * SCALE_BOOST).toFixed(4);
+        const boostedTransform = t.replace(/scale\([^)]+\)/, `scale(${boosted})`);
+        img.style.transformOrigin = 'center center';
+        img.style.transition = 'transform 0.25s ease';
+        img.style.transform = boostedTransform;
       }
+    }
+
+    zoom.on('open', boostScale);
+
+    // Medium-zoom recalculates on resize/scroll; reapply our boost so it sticks
+    window.addEventListener('resize', () => {
+      if (document.querySelector('.medium-zoom-image--opened')) boostScale();
+    });
+    window.addEventListener('scroll', () => {
+      if (document.querySelector('.medium-zoom-image--opened')) boostScale();
     });
 
     zoom.on('close', () => {
-      const zoomedImg = document.querySelector('.medium-zoom-image--opened');
-      if (zoomedImg) zoomedImg.style.transform = '';
+      const img = document.querySelector('.medium-zoom-image--opened');
+      if (img) img.style.transform = ''; // let library reset next time
     });
   });
 </script>
