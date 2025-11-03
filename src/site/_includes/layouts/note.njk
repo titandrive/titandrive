@@ -106,12 +106,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       const img = event.target;
       const { naturalWidth, naturalHeight } = img;
       const isLandscape = naturalWidth > naturalHeight;
-      zoom.update({
-        margin: isLandscape ? 0 : 80 // landscape = full width, portrait = leave breathing room
-      });
+
+      // Delay slightly so the zoom instance is ready
+      setTimeout(() => {
+        zoom.update({
+          margin: isLandscape ? 0 : 100 // portrait = more padding, landscape = full-screen
+        });
+      }, 10);
     });
   });
 </script>
+
 
 
 </body>
