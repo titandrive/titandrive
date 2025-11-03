@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:22:06.614-08:00"}
+{"dg-publish":true,"dg-path":"Blogs/Boox and Calibre.md","dg-permalink":"blogs/ereader","permalink":"/blogs/ereader/","title":"Calibre & Boox: The perfect combo","tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-02T21:26:17.779-08:00"}
 ---
 
 ## Intro
@@ -87,7 +87,6 @@ The final test was to try using a bluetooth controller with it and see how it co
 > The way to get it to sync reliably, and without issue, is to *not* use their Calibre feature or library syncing. I turned page progress sync on. I then manually downloaded the book to both devices using the Calibre Web Companion app, as mentioned above. Now, anytime I open a book it will load the progress from dropbox and if there was a change, ask if I want to skip ahead to the new location. 
 >
 { #dropbox-sync}
-
 
 ### Missing pieces: Page turner
 The final piece to my perfect ereading setup is finding the perfect page turner. The trick is finding a good bluetooth pageturner that works with ereaders. If you search Amazon for "pageturners", you will be met with a long list of the clip-on style turners I was trying to get away from. If you search for "bluetooth pageturner" you will find a ton of results for things that *look* like pageturners and are *advertised* as page turners but they are not pageturners, as I found out. Almost all of them are designed to connect to a phone and act as a remote for Tiktok of all things. What I learned, after buying a few, is that most of them imitate a screen swipe when you click the up and down button. 
