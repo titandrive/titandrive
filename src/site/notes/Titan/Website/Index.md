@@ -1,14 +1,16 @@
 ---
-{"dg-publish":true,"dg-path":"Index.md","permalink":"/index/","title":"Home","pinned":"true","tags":["unraid","guide","titan","gardenEntry"],"created":"2025-10-26T17:48:47.527-07:00","updated":"2025-11-02T18:21:01.099-08:00"}
+{"dg-publish":true,"dg-path":"Index.md","permalink":"/index/","title":"Home","pinned":"true","tags":["unraid","guide","titan","gardenEntry"],"created":"2025-10-26T17:48:47.527-07:00","updated":"2025-11-04T07:45:47.935-08:00"}
 ---
 
+# Welcome
 
-> [!NOTE] Welcome
-> Welcome to my blog. I am using this site to document my journey into self-hosting as I deploy my first server, Titan. My goal is to document the deployment in detail, including all of the things I learn along the way. 
+Have you ever started a new hobby and immediately realized you were going to become obsessed with it? That was self-hosting for me. 
 
+I am still very early into my self-hosting journey as I only spun up my first [[Titan/Website/Blogs/Beginning\|server]] a few months ago. 
 
-Guide to Titan Deployment
+My goal with this website is to document that journey as I continue down the rabbit hole. My main motivation is to have a place to document, in detail, what I learned so that I have a knowledgebase I can refer back to in the future when I inevitably forget how I did something. 
 
-- [[Titan/Website/Blogs/Boox and calibre\| Calibre]]
-- hi
-- hello
+But hopefully this blossoms into something useful for other beginners new to the hobby. 
+
+### Disclaimer 
+It is with that that I must offer a humble disclaimer: I have absolutely no idea what I am doing as I'm learning as I go and am entirely self taught. Because of that, the accuracy of this website is questionable at best. If you choose to follow anything on here, proceed at your own risk!
