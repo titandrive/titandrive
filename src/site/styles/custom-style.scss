@@ -1,44 +1,33 @@
 body {
 
+/* --- Image zoom behavior --- */
+picture {
+  display: inline-block;
+  overflow: visible !important;
+  text-align: center;
+  margin: 1rem auto;
+}
 
-/* Base zoom styling */
 picture img {
   cursor: zoom-in;
   transition: transform 0.25s ease;
   transform-origin: center center;
 }
 
-/* Click/press zoom */
-picture:active img {
+/* When zoomed in */
+picture.zoomed img {
   transform: scale(1.25);
   cursor: zoom-out;
   position: relative;
   z-index: 9999;
 }
 
-/* Ensure zoomed image is not clipped */
-picture {
-  display: inline-block;
-  overflow: visible !important;
-}
-
-/* Optional hover preview */
-@media (hover: hover) {
-  picture:hover img {
-    transform: scale(1.05);
-  }
-}
-
-/* Figcaption styling */
-figure, picture {
-  text-align: center;
-  margin: 1rem auto;
-}
-
+/* Optional captions */
 figcaption {
   font-size: 0.85rem;
   color: var(--muted-foreground, #888);
   margin-top: 0.4rem;
+  text-align: center;
 }
 
   
