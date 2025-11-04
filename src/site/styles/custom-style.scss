@@ -1,15 +1,39 @@
 body {
   
 /* Simple zoom on click */
-img {
+/* Stronger, generic targets */
+main :where(img, figure img) {
   cursor: zoom-in;
   transition: transform 0.25s ease;
+  transform-origin: center center;
 }
 
-img:active {
+/* Click/press zoom (works even if image is wrapped in a link) */
+main :where(img:active, a:active > img) {
   transform: scale(1.25);
   cursor: zoom-out;
+  position: relative;
   z-index: 9999;
+}
+
+/* Ensure the image isn’t clipped by parents */
+main figure,
+main :where(p, div, a) > img {
+  overflow: visible;
+}
+
+/* If an ancestor uses transform, give the figure a stacking context */
+main figure:has(img:active),
+main a:has(> img:active) {
+  position: relative;
+  z-index: 9999;
+}
+
+/* Desktop “hover” assist so you can verify it’s working without click */
+@media (hover: hover) {
+  main :where(img:hover, a:hover > img) {
+    transform: scale(1.05);
+  }
 }
 
     
