@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T19:13:31.748-08:00"}
+{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T19:14:37.924-08:00"}
 ---
+
+![App_Replacements-dsfv0w-001.webp|500](/img/user/Apps/Attachments/App_Replacements-dsfv0w-001.webp)
 
 Below is a chart of the apps I have replaced so far with their self-hosted counterparts. My main motivation for doing so is because I wanted to retain control of my data and protect myself from a service shutting down. One of my main motivators for self-hosting was [Pocket](https://support.mozilla.org/en-US/kb/future-of-pocket#:~:text=Need%20help%3F-,When%20is%20Pocket%20shutting%20down%3F,data%20will%20be%20permanently%20deleted.) shutting down and [Trakt.tv](https://forums.trakt.tv/t/freemium-experience-more-features-for-all-with-usage-limits/41641) paywalling a lot of the website. Both were services I had been reliant on for years and this sent me searching for a better solution. 
 
