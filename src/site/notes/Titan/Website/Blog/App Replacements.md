@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T21:11:26.725-08:00"}
+{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T21:18:35.049-08:00"}
 ---
 
 ![App_Replacements-dsfv0w-001.webp|500](/img/user/Apps/Attachments/App_Replacements-dsfv0w-001.webp)
@@ -20,7 +20,7 @@ Stay tuned for write ups on each service!
 | [1Password](https://1password.com/)                                    | 35.88            | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) ([Bitwarden](https://bitwarden.com/help/self-host-bitwarden/)) | Free            |
 | [YNAB](https://www.ynab.com/)                                          | $109             | [Actual](https://actualbudget.org/)                                                                                      | Free            |
 | [Trakt.tv](https://trakt.tv/)                                          | $48              | [Watcharr](https://github.com/sbondCo/Watcharr)                                                                          | Free            |
-| [Google Drive](https://drive.google.com/)                              | 19.99            | [Paperless](https://docs.paperless-ngx.com/) / [Filerun](https://filerun.com/)                                           | Free / $113[^2] |
+| [Google Drive](https://drive.google.com/)                              | 19.99            | [Paperless-NGX](https://docs.paperless-ngx.com/) / [Filerun](https://filerun.com/)                                       | Free / $113[^2] |
 | [Anki Web](ankiweb.ne)                                                 | Free             | [Anki Sync Server](https://docs.ankiweb.net/sync-server.html)                                                            | Free            |
 | [Kindle Unlimited](https://www.amazon.com/kindle-dbs/hz/subscribe/ku/) | $143.88          | [Calibre Web Automated](https://github.com/crocodilestick/Calibre-Web-Automated)                                         | Free            |
 | [Upnote](https://getupnote.com/)                                       | $39.99[^3]       | [Obsidian](https://obsidian.md/)                                                                                         | Free            |
