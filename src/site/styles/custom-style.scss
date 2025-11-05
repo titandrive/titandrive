@@ -1,46 +1,5 @@
 body {
 
-/* --- Image zoom (force override of any base styles) --- */
-
-/* Ensure picture wrapper isn't blocking clicks */
-picture {
-  display: inline-block !important;
-  overflow: visible !important;
-  position: relative !important;
-  text-align: center;
-  margin: 1rem auto !important;
-}
-
-/* Default state */
-picture img {
-  cursor: zoom-in !important;
-  transition: transform 0.25s ease !important;
-  transform: scale(1) !important;
-  transform-origin: center center !important;
-}
-
-/* Remove all hover transforms from upstream CSS */
-picture:hover img,
-img:hover {
-  transform: none !important;
-}
-
-/* Zoomed state */
-picture.zoomed img {
-  transform: scale(1.4) !important;
-  cursor: zoom-out !important;
-  position: relative !important;
-  z-index: 9999 !important;
-}
-
-/* Optional captions */
-figcaption {
-  font-size: 0.85rem !important;
-  color: var(--muted-foreground, #888) !important;
-  margin-top: 0.4rem !important;
-  text-align: center !important;
-}
-
   
     
 }
