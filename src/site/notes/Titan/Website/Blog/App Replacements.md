@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T21:18:35.049-08:00"}
+{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T21:38:03.650-08:00"}
 ---
 
 ![App_Replacements-dsfv0w-001.webp|500](/img/user/Apps/Attachments/App_Replacements-dsfv0w-001.webp)
@@ -27,6 +27,6 @@ Stay tuned for write ups on each service!
 
 
 
-[^1]: Android / Mac onetime purchase [price](https://www.paprikaapp.com/blog/)
+[^1]: Android / Mac onetime [purchase](https://www.paprikaapp.com/blog/)
 [^2]: Lifetime [license](https://filerun.com/index.php/pricing)
 [^3]: Lifetime [license](https://getupnote.com/#pricing) or monthly option available
