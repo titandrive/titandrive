@@ -1,0 +1,10 @@
+/* src/user/zoombox.css */
+img.zoomed {
+  transform: scale(1.5);
+  transition: transform 0.25s ease;
+  cursor: zoom-out;
+}
+img {
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+}
