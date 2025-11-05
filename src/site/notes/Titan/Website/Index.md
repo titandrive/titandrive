@@ -6,7 +6,7 @@
 
 Have you ever started a new hobby and immediately realized you were going to become obsessed with it? That was self-hosting for me. 
 
-I am still very early into my self-hosting journey as I only spun up my first [[Titan/Website/Blogs/Beginning\|server]] a few months ago. 
+I am still very early into my self-hosting journey as I only spun up my first [[Titan/Website/Blog/Beginning\|server]] a few months ago. 
 
 My goal with this website is to document that journey as I continue down the rabbit hole. My main motivation is to have a place to document, in detail, what I learned so that I have a knowledgebase I can refer back to in the future when I inevitably forget how I did something. 
 
