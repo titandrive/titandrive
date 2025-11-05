@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T19:14:37.924-08:00"}
+{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T19:17:45.010-08:00"}
 ---
 
 ![App_Replacements-dsfv0w-001.webp|500](/img/user/Apps/Attachments/App_Replacements-dsfv0w-001.webp)
@@ -25,8 +25,6 @@ Stay tuned for write ups on each service!
 | [Kindle Unlimited](https://www.amazon.com/kindle-dbs/hz/subscribe/ku/) | $143.88      | [Calibre Web Automated](https://github.com/crocodilestick/Calibre-Web-Automated)                                         | Free        |
 | [Upnote](https://getupnote.com/)[^3]                                   | $39.99       | [Obsidian](https://obsidian.md/)                                                                                         | Free        |
 
- 
-##### Footnotes
 [^1]: Android / Mac onetime purchase [price](https://www.paprikaapp.com/blog/)
 [^2]: Lifetime [license](https://filerun.com/index.php/pricing)
 [^3]: Lifetime [license](https://getupnote.com/#pricing) or monthly option available
