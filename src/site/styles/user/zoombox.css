@@ -1,16 +1,13 @@
 /* --- Image zoom (force override of any base styles) --- */
 
-/* Ensure picture wrapper isn't blocking clicks */
-picture {
+/* Default state */
+img {
   display: inline-block !important;
   overflow: visible !important;
   position: relative !important;
-  text-align: center;
+  text-align: center !important;
   margin: 1rem auto !important;
-}
 
-/* Default state */
-picture img {
   cursor: zoom-in !important;
   transition: transform 0.25s ease !important;
   transform: scale(1) !important;
@@ -18,13 +15,12 @@ picture img {
 }
 
 /* Remove all hover transforms from upstream CSS */
-picture:hover img,
 img:hover {
   transform: none !important;
 }
 
 /* Zoomed state */
-picture.zoomed img {
+img.zoomed {
   transform: scale(1.4) !important;
   cursor: zoom-out !important;
   position: relative !important;
