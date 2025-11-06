@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-05T21:11:58.466-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-05T21:16:30.625-08:00"}
 ---
 
 I have recently become obsessed with Obsidian and have fully embraced it as my repository for notes and brain dumps. Something about Obsidian tickles my brain in just the right way. It has reinvigorated my love of technical writing and was what spurred me to start this website in the first place. 
@@ -38,10 +38,9 @@ Once you have your new github account, go to [this](https://github.com/oleeskild
 
 ![Digital_Garden_and_Obsidian-nqzys2-008.png](/img/user/Apps/Attachments/Digital_Garden_and_Obsidian-nqzys2-008.png)
 
-On the next screen, for the repository name, type in the full url of your github profile: `sickblog.github.io`
+On the next screen, for the repository name, type in the full url of your github profile: `sickblog.github.io`. It is important that you type in the full url as this is what signals to Github to make this a userpage, which is what Digital Garden requires to function. 
 
-Leave the repo public and click "create repository". Once we go to publish the repo as a Github page, it is required that the repo be public unless you pay for a [Pro](https://github.com/pricing) plan.
-
+Leave the repo public and click "create repository". It needs to be left as a public repo as this is required when we setup [[#Step 5 Setup Github Pages|Github Pages]] later. You *can* have a private repo published to Github pages if you pay for a [Pro](https://github.com/pricing) plan. But considering this will become a public website, it is likely not necessary. 
 ## Step 4: Set up your repo
 
 We will now need to do some prep in order to get your repo fully ready to connect with Digital Garden. Open your repo and go to the Code tab. Navigate to .github/workflows. The workflows directory should be there but if not, create it. 
