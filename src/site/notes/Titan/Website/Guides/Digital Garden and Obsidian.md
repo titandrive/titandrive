@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-05T21:03:16.302-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-05T21:09:09.539-08:00"}
 ---
 
 I have recently become obsessed with Obsidian and have fully embraced it as my repository for notes and brain dumps. Something about Obsidian tickles my brain in just the right way. It has reinvigorated my love of technical writing and was what spurred me to start this website in the first place. 
@@ -54,94 +54,95 @@ You will need to create two YAML files within .github/workflows:
 
 Copy the below YAML code and paste it into their respective files and commit the changes. 
 
-### build.yml
-```build.ym
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: Check for any build error
+> [!build.yml]-
+> 
+> ```build.yml
+> # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+> # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+> 
+> name: Check for any build error
+> 
+> on:
+>   push:
+>     branches: [ "main" ]
+>   pull_request:
+>     branches: [ "main" ]
+> 
+> jobs:
+>   build:
+> 
+>     runs-on: ubuntu-22.04
+> 
+>     strategy:
+>       matrix:
+>         node-version: [20.x]
+>         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+> 
+>     steps:
+>     - uses: actions/checkout@v3
+>     - name: Use Node.js ${{ matrix.node-version }}
+>       uses: actions/setup-node@v3
+>       with:
+>         node-version: ${{ matrix.node-version }}
+>         cache: 'npm'
+>     - run: npm install
+>     - run: npm run build --if-present
+> ```
+> 
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-22.04
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm run build --if-present
-```
-
-### deploy.yml
-```deploy.yml
-name: Deploy Eleventy site to GitHub Pages
-
-on:
-  push:
-    branches: [main]
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build site
-        run: npm run build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-```
-
-
-
-
+> [!deploy.yml]-
+> 
+> ```deploy.yml
+> name: Deploy Eleventy site to GitHub Pages
+> 
+> on:
+>   push:
+>     branches: [main]
+> 
+> permissions:
+>   contents: write
+>   pages: write
+>   id-token: write
+> 
+> concurrency:
+>   group: "pages"
+>   cancel-in-progress: true
+> 
+> jobs:
+>   build:
+>     runs-on: ubuntu-latest
+>     steps:
+>       - uses: actions/checkout@v4
+> 
+>       - name: Setup Node
+>         uses: actions/setup-node@v4
+>         with:
+>           node-version: 20
+> 
+>       - name: Install dependencies
+>         run: npm ci
+> 
+>       - name: Build site
+>         run: npm run build
+> 
+>       - name: Upload artifact
+>         uses: actions/upload-pages-artifact@v3
+>         with:
+>           path: dist
+> 
+>   deploy:
+>     runs-on: ubuntu-latest
+>     needs: build
+>     environment:
+>       name: github-pages
+>       url: ${{ steps.deployment.outputs.page_url }}
+>     steps:
+>       - name: Deploy to GitHub Pages
+>         id: deployment
+>         uses: actions/deploy-pages@v4
+> ```
+> 
 ## Step 5: Setup Github Pages
 
 Now for the final step in Github before we move back to Obsidian. Go back to your repo page and click on the settings cog to enter repo settings. On the sidebar on the left, select Pages. 
