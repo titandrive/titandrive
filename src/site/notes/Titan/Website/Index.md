@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"Index.md","permalink":"/index/","title":"Home","pinned":"true","tags":["gardenEntry"],"created":"2025-10-26T17:48:47.527-07:00","updated":"2025-11-05T17:40:30.498-08:00"}
+{"dg-publish":true,"dg-path":"Index.md","permalink":"/index/","title":"Home","pinned":"true","tags":["gardenEntry"],"created":"2025-10-26T17:48:47.527-07:00","updated":"2025-11-05T17:46:56.243-08:00"}
 ---
 
-
-![Index-jk2ewk-001.webp](/img/user/Apps/Attachments/Index-jk2ewk-001.webp)# Welcome to Ion Drive 
+![Index-596vnt-002.webp](/img/user/Apps/Attachments/Index-596vnt-002.webp)
+# Welcome to Ion Drive 
 ## Launching my self-hosting journey with my first server, Titan
 
 Have you ever started a new hobby and immediately realized you were going to become obsessed with it? That was self-hosting for me. 
