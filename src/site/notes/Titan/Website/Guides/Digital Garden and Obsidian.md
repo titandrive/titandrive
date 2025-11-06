@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T07:39:05.547-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github","digitalgarden"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T09:27:41.243-08:00"}
 ---
 
 I have recently become obsessed with Obsidian and have fully embraced it as my repository for notes and brain dumps. Something about Obsidian tickles my brain in just the right way. It has reinvigorated my love of technical writing and was what spurred me to start this website in the first place. So I thought it was only appropriate that my first guide be about how I created it.
