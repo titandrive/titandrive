@@ -1,13 +1,12 @@
-document.addEventListener('click', (e) => {
-  const pic = e.target.closest('picture');
-  if (!pic) return;
+document.addEventListener("click", (e) => {
+  const target = e.target;
+  const node = target.closest("img"); // match current template output
+  if (!node) return;
 
-  // Toggle zoom state
-  if (pic.classList.contains('zoomed')) {
-    pic.classList.remove('zoomed');
+  if (node.classList.contains("zoomed")) {
+    node.classList.remove("zoomed");
   } else {
-    document.querySelectorAll('picture.zoomed')
-      .forEach(p => p.classList.remove('zoomed'));
-    pic.classList.add('zoomed');
+    document.querySelectorAll("img.zoomed").forEach((el) => el.classList.remove("zoomed"));
+    node.classList.add("zoomed");
   }
 });
