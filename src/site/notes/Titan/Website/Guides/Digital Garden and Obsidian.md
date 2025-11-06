@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T07:03:44.181-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing a blog to Github Pages via Obsidian & Digital Garden","tags":["obsidian","github"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T07:10:52.198-08:00"}
 ---
 
 I have recently become obsessed with Obsidian and have fully embraced it as my repository for notes and brain dumps. Something about Obsidian tickles my brain in just the right way. It has reinvigorated my love of technical writing and was what spurred me to start this website in the first place. 
@@ -43,8 +43,8 @@ We will now need to do some prep in order to get your repo fully ready to connec
 ![Digital_Garden_and_Obsidian-1b0osr-009.png](/img/user/Apps/Attachments/Digital_Garden_and_Obsidian-1b0osr-009.png)
 
 You will need to create two YAML files:  
-- .github/workflows/deploy.yml
-- .github/workflows/build.yml 
+- .github/workflows/build.yml
+- .github/workflows/deploy.yml 
 
 Copy the below YAML and paste it into the respective files and commit the changes. 
 
