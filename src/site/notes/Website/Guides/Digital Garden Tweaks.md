@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden Tweaks.md","dg-permalink":"guides/dgtweaks","permalink":"/guides/dgtweaks/","title":"My favorite Digital Garden Tweaks","tags":["digitalgarden"],"created":"2025-11-06T19:35:42.324-08:00","updated":"2025-11-06T20:23:00.227-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden Tweaks.md","dg-permalink":"guides/dgtweaks","permalink":"/guides/dgtweaks/","title":"My favorite Digital Garden Tweaks","tags":["digitalgarden"],"created":"2025-11-06T19:35:42.324-08:00","updated":"2025-11-06T20:25:51.638-08:00"}
 ---
 
 I have made some minor modifications to the Digital Garden template that I wanted to share here. They aren't anything crazy but just a few things that I think improve the usability of the website. 
@@ -19,7 +19,7 @@ Navigate to the Code section of your repo in Github. Place the following snippet
 - src/site/styles/user/zoombox.css
 - src/site/_includes/components/user/common/footer/zoombox.njk
 
-> [!Code]- Zoombox.js
+> [!Code]- zoombox.js
 > 
 > ```
 > document.addEventListener("click", (e) => {
@@ -37,7 +37,7 @@ Navigate to the Code section of your repo in Github. Place the following snippet
 > ```
 > 
 
-> [!code]- Zoombox.css
+> [!code]- zoombox.css
 > 
 > ```
 > /* --- Image zoom (force override of any base styles) --- */
@@ -79,7 +79,7 @@ Navigate to the Code section of your repo in Github. Place the following snippet
 > ```
 > 
 
-> [!code]- Zoombox.njk
+> [!code]- zoombox.njk
 > 
 > ```
 > <script src="/scripts/zoombox.js"></script>
