@@ -1,7 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/Boox and Calibre.md","dg-permalink":"blog/ereader","permalink":"/blog/ereader/","title":"Calibre & Boox: The perfect combo","hide":true,"tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-06T15:40:26.664-08:00"}
+{"dg-publish":true,"dg-path":"Blog/Boox and Calibre.md","dg-permalink":"blog/ereader","permalink":"/blog/ereader/","title":"Calibre & Boox: The perfect combo","hide":true,"tags":["kindle","calibre","books","ereader"],"created":"2025-11-02T13:43:15.494-08:00","updated":"2025-11-06T18:00:29.930-08:00"}
 ---
 
+[[#Missing pieces Page turner|test]]
 # Intro
 I have been an e-book reader since for nearly as long as I have been a reader. I wish I could remember what model it was, but my first ereader was some ancient Sony device. In fact, I distinctly remember [Digital Fortress](https://en.wikipedia.org/wiki/Digital_Fortress) being one of the first books I read on it. That started a lifelong fondness not only for reading but also gadgets. 
 
