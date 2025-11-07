@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden Tweaks.md","dg-permalink":"guides/dgtweaks","permalink":"/guides/dgtweaks/","title":"My favorite Digital Garden Tweaks","tags":["digitalgarden"],"created":"2025-11-06T19:35:42.324-08:00","updated":"2025-11-06T20:22:16.341-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden Tweaks.md","dg-permalink":"guides/dgtweaks","permalink":"/guides/dgtweaks/","title":"My favorite Digital Garden Tweaks","tags":["digitalgarden"],"created":"2025-11-06T19:35:42.324-08:00","updated":"2025-11-06T20:23:00.227-08:00"}
 ---
 
 I have made some minor modifications to the Digital Garden template that I wanted to share here. They aren't anything crazy but just a few things that I think improve the usability of the website. 
@@ -12,7 +12,7 @@ You will have to add three files in the below directories. The docs [layout](htt
 
 Navigate to the Code section of your repo in Github. Place the following snippets in their respective directories and commit the changes. Some of the directories may not exist so you will have to create them first. Once you have added all three, refresh your page and you should have Zoombox! 
 
-> [!success] Protip
+> [!success] Hard Refresh in Chrome
 > Cmd + Shift + R in Chrome will do a hard refresh of a site and clear any site data. If Zoombox doesn't immediately work, try this!
 
 - src/site/scripts/zoombox.js
