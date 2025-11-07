@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing your Digital Garden","tags":["obsidian","github","digitalgarden"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T20:30:37.493-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Publishing your Digital Garden","tags":["obsidian","github","digitalgarden"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-06T20:38:14.679-08:00"}
 ---
 
 # Publishing a blog to Github Pages via Obsidian & Digital Garden
@@ -8,7 +8,7 @@
 
 I have recently become obsessed with Obsidian and have fully embraced it as my repository for notes and brain dumps. Something about Obsidian tickles my brain in just the right way. It has reinvigorated my love of technical writing and was what spurred me to start this website in the first place. So I thought it was only appropriate that my first guide be about how I publish this site.
 
-One of my favorite things about Obsidian is how customizable it is and the near infinite amount of [[Website/Blog/Obsidian Setup\|Plugins]] there are. I have been trying to figure out a way to publish a blog directly from Obsidian when I came across [Digital Garden](https://dg-docs.ole.dev/).
+One of my favorite things about Obsidian is how customizable it is and the near infinite amount of [[Website/Drafts/Obsidian Setup\|Plugins]] there are. I have been trying to figure out a way to publish a blog directly from Obsidian when I came across [Digital Garden](https://dg-docs.ole.dev/).
 
 Digital Garden is an impressive and powerful plugin that allows you to publish your notes directly to a variety of hosting providers. It is specifically built for Obsidian and translates your notes directly into HTML. It supports all the standard obsidian features I love like headings, callouts, and backlinks. Because of that, it removes all of the friction associated with website hosting and lets you publish your notes exactly as you see them with one click.
 
