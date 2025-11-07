@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and their self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-04T21:58:28.583-08:00"}
+{"dg-publish":true,"dg-path":"Blog/App Replacements.md","dg-permalink":"blog/app-alternatives","permalink":"/blog/app-alternatives/","title":"Apps and self-hosted alternatives","created":"2025-11-03T20:05:30.272-08:00","updated":"2025-11-06T20:37:09.569-08:00"}
 ---
 
 ![App_Replacements-zgnron-003.webp](/img/user/Apps/Attachments/App_Replacements-zgnron-003.webp)
