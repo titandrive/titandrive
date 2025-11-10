@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Blog/Meet Titan.md","permalink":"/blog/meet-titan/","created":"2025-11-04T19:53:14.458-08:00","updated":"2025-11-09T17:25:12.484-08:00"}
+{"dg-publish":true,"dg-path":"Blog/Meet Titan.md","permalink":"/blog/meet-titan/","created":"2025-11-04T19:53:14.458-08:00","updated":"2025-11-09T17:29:52.850-08:00"}
 ---
 
 Meet Titan. In this post, I introduce Titan and explain the thought process behind the hardware choices I made. 
@@ -16,6 +16,6 @@ I chose the following hardware mainly because it was listed as [compatible](http
 - Boot USB: [64GB PNY Elite-X™ Fit USB 3.1 Flash Drive](https://www.amazon.com/dp/B0FJTH69ZM?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 
 ### Uninterruptible Power Supply (UPS)
-For a UPS, I chose the [Ugreen 120W UPS](https://www.amazon.com/dp/B0DDC9ZK8R?ref=ppx_yo2ov_dt_b_fed_asin_title), mainly because it was directly compatible with the DXP4800. The UPS for the NAS plugs directly into the UPS (along with a USB cable) so that it can control the NAS in event of a power outtage. It's also nice and compact. 
+For a UPS, I chose the [Ugreen 120W UPS](https://www.amazon.com/dp/B0DDC9ZK8R?ref=ppx_yo2ov_dt_b_fed_asin_title), mainly because it was directly compatible with the DXP4800. The UPS for the NAS plugs directly into the UPS (along with a USB cable) so that it can control the NAS in event of a power outage. It's also nice and compact. Although it's designed to work with UGOS, it isn't too difficult to get working with [[Website/Guides/UGreen UPS Setup\|Unraid]]. 
 
 ![Meet_Titan-t80klw-002.png|400](/img/user/Apps/Attachments/Meet_Titan-t80klw-002.png)
