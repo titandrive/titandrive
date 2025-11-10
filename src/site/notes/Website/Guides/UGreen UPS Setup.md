@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/UGreen UPS Setup.md","dg-permalink":"guides/ugreenups","permalink":"/guides/ugreenups/","title":"UGreen UPS & Unraid","tags":["guide","ugreen","unraid"],"created":"2025-11-09T16:38:29.679-08:00","updated":"2025-11-09T17:23:36.079-08:00"}
+{"dg-publish":true,"dg-path":"Guides/UGreen UPS Setup.md","dg-permalink":"guides/ugreenups","permalink":"/guides/ugreenups/","title":"UGreen UPS & Unraid","tags":["guide","ugreen","unraid"],"created":"2025-11-09T16:38:29.679-08:00","updated":"2025-11-09T17:43:36.588-08:00"}
 ---
 
 ## Connecting your UGreen UPS to Unraid via the NUT Plugin
 
-![UGreen_UPS_Setup-ngc3vk-004.png|400](/img/user/Apps/Attachments/UGreen_UPS_Setup-ngc3vk-004.png)
 
+![UGreen_UPS_Setup-pvi5hj-005.png|400](/img/user/Apps/Attachments/UGreen_UPS_Setup-pvi5hj-005.png)
 When I bought my [UGreen DXP 4800+](https://nas.ugreen.com/products/ugreen-nasync-dxp4800-plus-nas-storage) I decided to also buy the UGreen [Uninterupptible Power Supply](https://nas-eu.ugreen.com/products/ugreen-nas-backup-power-120w-12000mah) (UPS) along with it. It's small form-factor and out of the box compatibility with the server intrigued me. Of course, my plans to run Unraid instead of the default UGOS complicated things. 
 
 By default, Unraid has the ability to communicate with most UPS's. Why is this important? Well, if the power goes out the UPS will start supplying power to the server. This happens with any UPS. But if the power outrage goes on long enough, your UPS will eventually run out of power. If the UPS *can't* talk to the server, when it dies the server will experience an [unclean shutdown](https://docs.unraid.net/unraid-os/troubleshooting/common-issues/unclean-shutdowns/). This can have ill effects on parity among other thigns. A smart UPS can give the server a warning as it starts to run out of power at which point Unraid can stop the array and power down properly. 
