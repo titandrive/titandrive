@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/UGreen UPS Setup.md","dg-permalink":"guides/ugreenups","permalink":"/guides/ugreenups/","title":"Connecting the UGreen UPS to Unraid","tags":["guide","ugreen","unraid"],"created":"2025-11-09T16:38:29.679-08:00","updated":"2025-11-09T17:07:53.145-08:00"}
+{"dg-publish":true,"dg-path":"Guides/UGreen UPS Setup.md","dg-permalink":"guides/ugreenups","permalink":"/guides/ugreenups/","title":"UGreen UPS & Unraid","tags":["guide","ugreen","unraid"],"created":"2025-11-09T16:38:29.679-08:00","updated":"2025-11-09T17:15:37.233-08:00"}
 ---
+
+## Connecting your UGreen UPS to Unraid via NUT Plugin
 
 When I bought my [UGreen DXP 4800+](https://nas.ugreen.com/products/ugreen-nasync-dxp4800-plus-nas-storage) I decided to also buy the UGreen [Uninterupptible Power Supply](https://nas-eu.ugreen.com/products/ugreen-nas-backup-power-120w-12000mah) (UPS) along with it. It's small form-factor and out of the box compatibility with the server intrigued me. Of course, my plans to run Unraid instead of the default UGOS complicated things. 
 
