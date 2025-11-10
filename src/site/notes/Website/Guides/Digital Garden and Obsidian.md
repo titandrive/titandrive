@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Creating your Digital Garden","tags":["obsidian","github","digitalgarden"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-09T18:59:34.347-08:00"}
+{"dg-publish":true,"dg-path":"Guides/Digital Garden and Obsidian.md","dg-permalink":"guides/digitalgarden","permalink":"/guides/digitalgarden/","title":"Creating your Digital Garden","tags":["obsidian","github","digitalgarden"],"created":"2025-11-05T18:12:32.895-08:00","updated":"2025-11-09T18:59:53.976-08:00"}
 ---
 
 ## Publishing a blog to Github Pages via Obsidian & Digital Garden
@@ -107,7 +107,7 @@ Copy the below YAML and paste into the new file and commit it. This file instruc
 
 Now we need to enable Github Actions to deploy your wbsite. Go back to your repo page and click on the settings cog to enter repo settings. On the sidebar on the left, select Pages. 
 
-You will then see a section for Build and Deploy. Select the dropdown menu and change it to Github Actions. It should then show "Your site is live...".
+You will then see a section for Build and Deploy. Select the dropdown menu and change it to Github Actions. It should then show "Your site is live at...".
 
 ![Digital_Garden_and_Obsidian-9xkquy-010.png|700](/img/user/Apps/Attachments/Digital_Garden_and_Obsidian-9xkquy-010.png)
 ## Step 6. Connect Digital Garden to Github
