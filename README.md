@@ -3,7 +3,7 @@
 Tools and plugins built around e-readers, self-hosting, and Obsidian.
 
 ## Yarnl
-Self-hosted crochet companion — the flagship project.
+Self-hosted crochet companion — the flagship project. [Website](https://yarnl.com) · [Demo](https://demo.yarnl.com) · [Docs](https://yarnl.com/docs)
 - **[yarnl](https://github.com/titandrive/yarnl)** — core app
 - **[yarnl-android](https://github.com/titandrive/yarnl-android)** — Android client
 - **[yarnl-docs](https://github.com/titandrive/yarnl-docs)** — documentation site (Docusaurus)
