@@ -1,6 +1,6 @@
 # Repository Overview
 
-Tools and plugins built around e-readers, self-hosting, and Obsidian.
+I make dumb tools and plugins built around my favorite hobbies: crocheting, e-readers, self-hosting, and Obsidian.
 
 ## Yarnl
 Self-hosted crochet companion — the flagship project. [Website](https://yarnl.com) · [Demo](https://demo.yarnl.com) · [Docs](https://yarnl.com/docs)
