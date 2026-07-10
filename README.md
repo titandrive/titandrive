@@ -19,7 +19,7 @@ Plugins for the [KOReader](https://github.com/koreader/koreader) e-reader app.
 ## Obsidian plugins
 These plugins are not on the community plugin store and are installed via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (Beta Reviewers Auto-update Tool).
 
-- **[Obsidian-MoonSync](https://github.com/titandrive/Obsidian-MoonSync)** — sync book progress, notes, and highlights from Moon+ Reader (Android) to Obsidian and Hardcover
+- **[Obsidian-MoonSync](https://github.com/titandrive/Obsidian-MoonSync)** — sync book progress, notes, and highlights from Moon+ Reader or Koreader to Obsidian and Hardcover.
 - **[Obsidian-QuickerFolders](https://github.com/titandrive/Obsidian-QuickerFolders)** — open a chosen note when you click a folder
 - **[Obsidian-FrontmatterHider](https://github.com/titandrive/Obsidian-FrontmatterHider)** — hide frontmatter in the editor
 
