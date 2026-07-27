@@ -14,7 +14,7 @@ Plugins for the [KOReader](https://github.com/koreader/koreader) e-reader app.
 - **[syncest](https://github.com/titandrive/syncest)** — `syncest.koplugin`
 - **[bluetoothconfigurator.koplugin](https://github.com/titandrive/bluetoothconfigurator.koplugin)** — Bluetooth configurator for Android
 - **[koboard](https://github.com/titandrive/koboard)** — use your Android keyboard of choice in KOReader
-- **[koreader_things](https://github.com/titandrive/koreader_things)** — miscellaneous KOReader utilities
+- **[koreader.things](https://github.com/titandrive/koreader.things)** — miscellaneous KOReader utilities
 
 ## Obsidian plugins
 These plugins are not on the community plugin store and are installed via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (Beta Reviewers Auto-update Tool).
