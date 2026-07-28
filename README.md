@@ -9,12 +9,24 @@ Self-hosted crochet companion — the flagship project. [Website](https://yarnl.
 - **[yarnl-docs](https://github.com/titandrive/yarnl-docs)** — documentation site (Docusaurus)
 - **[yarnl-unraid](https://github.com/titandrive/yarnl-unraid)** — Unraid Community App template
 
-## KOReader plugins
-Plugins for the [KOReader](https://github.com/koreader/koreader) e-reader app.
+## KOReader
+
+See **[koreader.things](https://github.com/titandrive/koreader.things)** for the complete collection, documentation, and installation files.
+
+### Plugins
+
 - **[syncest](https://github.com/titandrive/syncest)** — `syncest.koplugin`
 - **[bluetoothconfigurator.koplugin](https://github.com/titandrive/bluetoothconfigurator.koplugin)** — Bluetooth configurator for Android
 - **[koboard](https://github.com/titandrive/koboard)** — use your Android keyboard of choice in KOReader
-- **[koreader.things](https://github.com/titandrive/koreader.things)** — miscellaneous KOReader utilities
+
+### Patches
+
+- **[UI Font](https://github.com/titandrive/koreader.things/blob/main/patches/2--ui-font_enhanced.lua)** — select a custom font for the KOReader interface
+- **[Fancy Highlight Styles](https://github.com/titandrive/koreader.things/blob/main/patches/2-fancy-highlight-styles.lua)** — adds more highlight styles
+- **[Move to Archive](https://github.com/titandrive/koreader.things/blob/main/patches/2-move-to-archive.lua)** — adds archive actions to book menus
+- **[Bonus Gestures](https://github.com/titandrive/koreader.things/blob/main/patches/2-bonus-gestures.lua)** — adds extra configurable gestures
+- **[Action Finder](https://github.com/titandrive/koreader.things/blob/main/patches/2-action-finder.lua)** — searchable KOReader actions
+- **[OPDS XML Compatibility](https://github.com/titandrive/koreader.things/blob/main/patches/2-opds-xml-compat.lua)** — compatibility fix for OPDS 1.x catalogs
 
 ## Obsidian plugins
 These plugins are not on the community plugin store and are installed via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (Beta Reviewers Auto-update Tool).
