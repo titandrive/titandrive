@@ -15,7 +15,7 @@ See **[koreader.things](https://github.com/titandrive/koreader.things)** for the
 
 ### Plugins
 
-- **[syncest](https://github.com/titandrive/syncest)** — `syncest.koplugin`
+- **[syncest](https://github.com/titandrive/syncest)** — sync reading progress, annotations, statistics, vocabulary, and books across KOReader devices using WebDAV
 - **[bluetoothconfigurator.koplugin](https://github.com/titandrive/bluetoothconfigurator.koplugin)** — Bluetooth configurator for Android
 - **[koboard](https://github.com/titandrive/koboard)** — use your Android keyboard of choice in KOReader
 
