@@ -22,7 +22,6 @@ See **[koreader.things](https://github.com/titandrive/koreader.things)** for the
 ### Patches
 
 - **[UI Font](https://github.com/titandrive/koreader.things/blob/main/patches/2--ui-font_enhanced.lua)** — select a custom font for the KOReader interface
-- **[Fancy Highlight Styles](https://github.com/titandrive/koreader.things/blob/main/patches/2-fancy-highlight-styles.lua)** — adds more highlight styles
 - **[Move to Archive](https://github.com/titandrive/koreader.things/blob/main/patches/2-move-to-archive.lua)** — adds archive actions to book menus
 - **[Bonus Gestures](https://github.com/titandrive/koreader.things/blob/main/patches/2-bonus-gestures.lua)** — adds extra configurable gestures
 - **[Action Finder](https://github.com/titandrive/koreader.things/blob/main/patches/2-action-finder.lua)** — searchable KOReader actions
