@@ -2,16 +2,24 @@
 
 I make dumb tools and plugins built around my favorite tools and hobbies: crocheting, reading (Koreader), self-hosting, and Obsidian.
 
-## Yarnl
+## Self-hosting
+
+- **[SyncOver](https://github.com/titandrive/SyncOver)** — Syncthing sync-error notifications through Pushover, with Docker and Linux systemd installations
+
+### Yarnl
 Self-hosted crochet companion — the flagship project. [Website](https://yarnl.com) · [Demo](https://demo.yarnl.com) · [Docs](https://yarnl.com/docs)
 - **[yarnl](https://github.com/titandrive/yarnl)** — core app
 - **[yarnl-android](https://github.com/titandrive/yarnl-android)** — Android client
 - **[yarnl-docs](https://github.com/titandrive/yarnl-docs)** — documentation site (Docusaurus)
 - **[yarnl-unraid](https://github.com/titandrive/yarnl-unraid)** — Unraid Community App template
 
-## Android
+## Catppuccin
 
 - **[Morphe Catppuccin](https://github.com/titandrive/morphe-catppuccin)** — Catppuccin themes and custom fonts for Boost, Gboard, and AnkiDroid, applied through Morphe Manager
+- **[stylus_themes](https://github.com/titandrive/stylus_themes)** — Stylus userstyles
+
+## Android
+
 - **[TapTop](https://github.com/titandrive/taptop)** — tap to scroll to the top in Android apps, with shortcuts and automation controls
 
 ## Linux
@@ -44,12 +52,6 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-MoonSync](https://github.com/titandrive/Obsidian-MoonSync)** — sync book progress, notes, and highlights from Moon+ Reader or Koreader to Obsidian and Hardcover.
 - **[Obsidian-QuickerFolders](https://github.com/titandrive/Obsidian-QuickerFolders)** — open a chosen note when you click a folder
 - **[Obsidian-FrontmatterHider](https://github.com/titandrive/Obsidian-FrontmatterHider)** — hide frontmatter in the editor
-
-## Self-hosting / infrastructure
-
-- **[SyncOver](https://github.com/titandrive/SyncOver)** — Syncthing sync-error notifications through Pushover, with Docker and Linux systemd installations
-- **[caddy](https://github.com/titandrive/caddy)** — custom Caddy build with Cloudflare DNS and Docker proxy support
-- **[stylus_themes](https://github.com/titandrive/stylus_themes)** — Stylus userstyles
 
 ## Blog
 - **[titandrive.github.io](https://github.com/titandrive/titandrive.github.io)** — personal blog at [iondrive.cc](https://iondrive.cc), built in Obsidian via the Digital Garden plugin
