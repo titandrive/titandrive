@@ -9,6 +9,17 @@ Self-hosted crochet companion — the flagship project. [Website](https://yarnl.
 - **[yarnl-docs](https://github.com/titandrive/yarnl-docs)** — documentation site (Docusaurus)
 - **[yarnl-unraid](https://github.com/titandrive/yarnl-unraid)** — Unraid Community App template
 
+## Android
+
+- **[Morphe Catppuccin](https://github.com/titandrive/morphe-catppuccin)** — Catppuccin themes and custom fonts for Boost, Gboard, and AnkiDroid, applied through Morphe Manager
+- **[TapTop](https://github.com/titandrive/taptop)** — tap to scroll to the top in Android apps, with shortcuts and automation controls
+
+## Linux
+
+- **[QuickView](https://github.com/titandrive/QuickView)** — Quick Look-style file previews for KDE Plasma, including documents, books, images, and media
+- **[RazerGenie](https://github.com/titandrive/RazerGenie/tree/scroll-wheel-controls)** — my fork adds a dedicated scroll-wheel settings tab, hardware-state refresh, and capability-aware controls
+- **[OpenRazer](https://github.com/titandrive/openrazer/tree/basilisk-v3-pro-bluetooth)** — my fork adds Basilisk V3 Pro Bluetooth controls for DPI stages, scroll modes, Smart-Reel, and acceleration
+
 ## KOReader
 
 See **[koreader.things](https://github.com/titandrive/koreader.things)** for the complete collection, documentation, and installation files.
@@ -35,6 +46,8 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-FrontmatterHider](https://github.com/titandrive/Obsidian-FrontmatterHider)** — hide frontmatter in the editor
 
 ## Self-hosting / infrastructure
+
+- **[SyncOver](https://github.com/titandrive/SyncOver)** — Syncthing sync-error notifications through Pushover, with Docker and Linux systemd installations
 - **[caddy](https://github.com/titandrive/caddy)** — custom Caddy build with Cloudflare DNS and Docker proxy support
 - **[stylus_themes](https://github.com/titandrive/stylus_themes)** — Stylus userstyles
 
