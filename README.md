@@ -21,9 +21,13 @@ Self-hosted crochet companion — the flagship project. [Website](https://yarnl.
 ## Android
 
 - **[TapTop](https://github.com/titandrive/taptop)** — tap to scroll to the top in Android apps, with shortcuts and automation controls
+- **[Silverfish Widget](https://github.com/titandrive/silverfish-widget)** — home-screen widget for the Silverfish reading pet in KOReader
+- **[QuickNote](https://github.com/titandrive/obsidian-quicknote)** — home-screen widget showing up to five Obsidian notes, with folded headings kept
 
 ## Linux
 
+- **[Actuator](https://github.com/titandrive/Actuator)** — a GUI for configuring InputActions gestures and shortcuts on KDE Plasma
+- **[Literature Clock](https://github.com/titandrive/literature-clock/tree/kde-plasma-widget/kde-plasma)** — KDE Plasma widget that tells the time with a literary quote for every minute
 - **[QuickView](https://github.com/titandrive/QuickView)** — Quick Look-style file previews for KDE Plasma, including documents, books, images, and media
 - **[RazerGenie](https://github.com/titandrive/RazerGenie/tree/scroll-wheel-controls)** — my fork adds a dedicated scroll-wheel settings tab, hardware-state refresh, and capability-aware controls
 - **[OpenRazer](https://github.com/titandrive/openrazer/tree/basilisk-v3-pro-bluetooth)** — my fork adds Basilisk V3 Pro Bluetooth controls for DPI stages, scroll modes, Smart-Reel, and acceleration
@@ -44,7 +48,6 @@ See **[koreader.things](https://github.com/titandrive/koreader.things)** for the
 - **[Move to Archive](https://github.com/titandrive/koreader.things/blob/main/patches/2-move-to-archive.lua)** — adds archive actions to book menus
 - **[Bonus Gestures](https://github.com/titandrive/koreader.things/blob/main/patches/2-bonus-gestures.lua)** — adds extra configurable gestures
 - **[Action Finder](https://github.com/titandrive/koreader.things/blob/main/patches/2-action-finder.lua)** — searchable KOReader actions
-- **[OPDS XML Compatibility](https://github.com/titandrive/koreader.things/blob/main/patches/2-opds-xml-compat.lua)** — compatibility fix for OPDS 1.x catalogs
 
 ## Obsidian plugins
 These plugins are not on the community plugin store and are installed via [BRAT](https://github.com/TfTHacker/obsidian42-brat) (Beta Reviewers Auto-update Tool).
@@ -52,6 +55,8 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-MoonSync](https://github.com/titandrive/Obsidian-MoonSync)** — sync book progress, notes, and highlights from Moon+ Reader or Koreader to Obsidian and Hardcover.
 - **[Obsidian-QuickerFolders](https://github.com/titandrive/Obsidian-QuickerFolders)** — open a chosen note when you click a folder
 - **[Obsidian-FrontmatterHider](https://github.com/titandrive/Obsidian-FrontmatterHider)** — hide frontmatter in the editor
+- **[Obsidian-DailyJournal](https://github.com/titandrive/Obsidian-DailyJournal)** — daily journal entries with date, weather, and location cards above your writing
+- **[Obsidian-Live-FoldSync](https://github.com/titandrive/Obsidian-Live-FoldSync)** — sync folded headings and lists between devices, even in notes that are already open
 
 ## Blog
 - **[titandrive.github.io](https://github.com/titandrive/titandrive.github.io)** — personal blog at [iondrive.cc](https://iondrive.cc), built in Obsidian via the Digital Garden plugin
