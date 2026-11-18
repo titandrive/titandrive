@@ -57,6 +57,7 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-FrontmatterHider](https://github.com/titandrive/Obsidian-FrontmatterHider)** — hide frontmatter in the editor
 - **[Obsidian-DailyJournal](https://github.com/titandrive/Obsidian-DailyJournal)** — daily journal entries with date, weather, and location cards above your writing
 - **[Obsidian-Live-FoldSync](https://github.com/titandrive/Obsidian-Live-FoldSync)** — sync folded headings and lists between devices, even in notes that are already open
+- **[Obsidian-Synonymous](https://github.com/titandrive/Obsidian-Synonymous)** — synonyms and definitions for the word you're writing, from Merriam-Webster, Wiktionary and more
 
 ## Blog
 - **[titandrive.github.io](https://github.com/titandrive/titandrive.github.io)** — personal blog at [iondrive.cc](https://iondrive.cc), built in Obsidian via the Digital Garden plugin
