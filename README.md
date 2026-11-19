@@ -60,6 +60,7 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-Live-FoldSync](https://github.com/titandrive/Obsidian-Live-FoldSync)** — sync folded headings and lists between devices, even in notes that are already open
 - **[Obsidian-Synonymous](https://github.com/titandrive/Obsidian-Synonymous)** — synonyms and definitions for the word you're writing, from Merriam-Webster, Wiktionary and more
 - **[Obsidian-Reload-Button](https://github.com/titandrive/Obsidian-Reload-Button)** — a sidebar button that reloads Obsidian without saving
+- **[Obsidian-Task-Resetter](https://github.com/titandrive/Obsidian-Task-Resetter)** — uncheck a note's tasks with a command, a sidebar button, or a reset button inside the note
 - **[QuickNote](https://github.com/titandrive/obsidian-quicknote)** — Android home-screen widget showing up to five Obsidian notes, with folded headings kept (an app, not a plugin)
 
 ## Blog
