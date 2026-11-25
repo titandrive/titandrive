@@ -61,7 +61,7 @@ These plugins are not on the community plugin store and are installed via [BRAT]
 - **[Obsidian-Synonymous](https://github.com/titandrive/Obsidian-Synonymous)** — synonyms and definitions for the word you're writing, from Merriam-Webster, Wiktionary and more
 - **[Obsidian-Reload-Button](https://github.com/titandrive/Obsidian-Reload-Button)** — a sidebar button that reloads Obsidian without saving
 - **[Obsidian-Task-Resetter](https://github.com/titandrive/Obsidian-Task-Resetter)** — uncheck a note's tasks with a command, a sidebar button, or a reset button inside the note
-- **[Obsidian-Checker](https://github.com/titandrive/obsidian-checker)** — hides checked-off tasks a moment after you check them, and keeps them in the note to bring back with a click
+- **[Obsidian-Task-Cleaner](https://github.com/titandrive/Obsidian-Task-Cleaner)** — hides checked-off tasks a moment after you check them, and keeps them in the note to bring back with a click
 - **[Obsidian-CooklangPro](https://github.com/titandrive/Obsidian-CooklangPro)** — my fork of Cooklang Editor: Cooklang recipes in Obsidian, plus importing recipes from websites, a recipe browser, favorites and ratings
 - **[QuickNote](https://github.com/titandrive/obsidian-quicknote)** — Android home-screen widget showing up to five Obsidian notes, with folded headings kept (an app, not a plugin)
 
