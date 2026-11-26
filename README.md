@@ -23,6 +23,7 @@ Self-hosted crochet companion — the flagship project. [Website](https://yarnl.
 - **[TapTop](https://github.com/titandrive/taptop)** — tap to scroll to the top in Android apps, with shortcuts and automation controls
 - **[Silverfish Widget](https://github.com/titandrive/silverfish-widget)** — home-screen widget for the Silverfish reading pet in KOReader
 - **[QuickNote](https://github.com/titandrive/obsidian-quicknote)** — home-screen widget showing up to five Obsidian notes, with folded headings kept
+- **[Thor's Hammer](https://github.com/titandrive/Thors-Hammer)** — dual-screen brightness and volume controls for the AYN Thor, built on Thor's Lightning and Thor Volume Link
 - **[PetBro](https://github.com/titandrive/PetBro)** — a companion app for Petlibro feeders: Feed Now with a tap, meal schedules, history, a Quick Settings tile and automation
 
 ## Linux
